@@ -1,8 +1,14 @@
 # 🏋️ FitLog — Workout Library
 
-A responsive, dark-mode workout library and lightweight workout log built with **Next.js 15, React 19, TypeScript, and CSS**. Browse exercises, inspect detailed instructions, create a five-exercise daily plan, save workouts, and keep selections after refresh.
+> A responsive workout library and lightweight workout log for browsing exercises, building daily workout plans, saving workouts, and keeping selections after refresh.
+
+**Tech Stack:** Next.js 15 · React 19 · TypeScript · CSS · Lucide React · REST API · localStorage
 
 🌐 **Live Demo:** https://fitlogworkout.netlify.app/
+
+## 📌 Project Overview
+
+FitLog provides a simple workout-planning experience: users can explore API-driven exercises, inspect instructions, sort workouts, build a plan of up to five exercises, save exercises, and keep their selections persistent with browser localStorage.
 
 ## ✨ Main Features
 
