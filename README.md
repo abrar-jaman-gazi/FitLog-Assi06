@@ -1,37 +1,102 @@
-# FitLog — Workout Library
+# 🏋️ FitLog — Workout Library
 
-A responsive, dark-mode workout library and lightweight workout log built for the FitLog assignment. Browse twelve exercises, inspect full instructions, build a five-lift daily plan, save exercises for later, and keep your selections after refresh.
+A responsive, dark-mode workout library and lightweight workout log built with **Next.js 15, React 19, TypeScript, and CSS**. Browse exercises, inspect detailed instructions, create a five-exercise daily plan, save workouts, and keep selections after refresh.
 
-## Technologies
-- Next.js 15 App Router
-- React 19 + TypeScript
-- CSS (responsive custom styling)
-- Lucide React icons
-- FitLog REST API
-- Browser localStorage for persistence
+🌐 **Live Demo:** https://fitlogworkout.netlify.app/
 
-## Key Features
-1. Responsive workout library with a 3-column desktop grid.
-2. API-driven workout cards and detail pages.
-3. Sort library by duration, calories, or rating.
-4. Five-lift Today's Plan with live exercise/minute/calorie metrics.
-5. Saved-for-later tab with remove actions.
-6. Toast feedback for add/save/remove/done actions.
-7. Persistent plan and saved state using localStorage.
-8. Responsive navigation, loading states, 404 handling, and deployment-safe App Router routes.
+## ✨ Main Features
 
-## Run locally
+- 🏋️ Browse a workout library with API-driven exercise cards
+- 📖 View detailed instructions for individual exercises
+- 📊 Sort exercises by duration, calories, or rating
+- 🎯 Build a daily plan with up to five exercises
+- 🔥 Track selected exercise, minute, and calorie totals
+- 💾 Save exercises for later
+- 🔄 Persist workout plans and saved exercises with browser localStorage
+- 🔔 Toast feedback for add, save, remove, and done actions
+- 📱 Responsive design for desktop, tablet, and mobile
+- 🌙 Dark-mode interface
+- ⏳ Loading states and 404 handling
+
+## 🛠️ Main Technologies
+
+- **Next.js 15** — App Router and application framework
+- **React 19** — UI components
+- **TypeScript** — Type-safe development
+- **CSS** — Responsive custom styling
+- **Lucide React** — Interface icons
+- **REST API** — Workout data
+- **localStorage** — Client-side persistence
+
+## 📦 Dependencies
+
+### Production
+
+```json
+{
+  "next": "^15.1.4",
+  "react": "^19.0.0",
+  "react-dom": "^19.0.0",
+  "lucide-react": "^0.468.0"
+}
+```
+
+### Development
+
+```json
+{
+  "@types/node": "^22.10.5",
+  "@types/react": "^19.0.3",
+  "@types/react-dom": "^19.0.2",
+  "typescript": "^5.7.2"
+}
+```
+
+## 🚀 Run Locally
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/abrar-jaman-gazi/assignment-06.git
+cd assignment-06
+```
+
+### 2. Install dependencies
 
 ```bash
 npm install
+```
+
+### 3. Start the development server
+
+```bash
 npm run dev
 ```
 
-Open http://localhost:3000.
+Open **http://localhost:3000** in your browser.
 
-## API
-- All workouts: https://api.abcz.workers.dev/api/fitlog
-- Single workout: https://api.abcz.workers.dev/api/fitlog/:id
+### 4. Create a production build
 
-## Git history
-The project is organized into meaningful implementation commits covering setup, styling, API/library, details, planning, and polish.
+```bash
+npm run build
+npm start
+```
+
+## 🔌 API
+
+The application uses the FitLog REST API:
+
+- **All workouts:** https://api.abcz.workers.dev/api/fitlog
+- **Single workout:** https://api.abcz.workers.dev/api/fitlog/:id
+
+## 🔗 Relevant Links
+
+- 🌐 **Live Demo:** https://fitlogworkout.netlify.app/
+- 💻 **GitHub:** https://github.com/abrar-jaman-gazi/assignment-06
+- 🔌 **API:** https://api.abcz.workers.dev/api/fitlog
+
+## 👨‍💻 Author
+
+**Abrar Jaman Gazi**
+
+Computer Science Student — United International University (UIU)
